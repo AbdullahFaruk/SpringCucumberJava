@@ -1,0 +1,5 @@
+com/paxovision/cucumber/framework/CucumberTestRunner.class
+com/paxovision/cucumber/framework/hooks/BeforeAfterHook.class
+com/paxovision/cucumber/framework/configurations/PropertySourceConfig.class
+com/paxovision/cucumber/framework/configurations/SpringContext.class
+com/paxovision/cucumber/framework/utils/SpecializedScreenRecorder.class

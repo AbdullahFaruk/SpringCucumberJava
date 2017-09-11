@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="28.63696">
+<testcase classname="Broadleaf Commerce Login Functionality" name="3. Valid user valid password" time="28.63696">
+<failure message="The scenario has pending or undefined step(s)"><![CDATA[Given As a not validated user...............................................passed
+When Browse to the application..............................................passed
+Then Broadlief home page should show........................................passed
+When User click login button................................................passed
+And Enter "iivaan@Gmail.com" as emaill address..............................passed
+And Enter "ameera" as password..............................................passed
+And Click login.............................................................passed
+Then Invalid email or password message not display..........................undefined
+And Welcome message shows...................................................undefined
+]]></failure>
+</testcase>
+</testsuite>

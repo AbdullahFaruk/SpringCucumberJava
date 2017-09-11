@@ -1,0 +1,173 @@
+[
+  {
+    "id": "broadleaf-commerce-login-functionality",
+    "description": "",
+    "name": "Broadleaf Commerce Login Functionality",
+    "keyword": "Feature",
+    "line": 1,
+    "elements": [
+      {
+        "description": "",
+        "name": "",
+        "keyword": "Background",
+        "line": 3,
+        "steps": [
+          {
+            "result": {
+              "duration": 242599619,
+              "status": "passed"
+            },
+            "name": "As a not validated user",
+            "keyword": "Given ",
+            "line": 4,
+            "match": {
+              "location": "HeatclinicSteps.as_a_not_validated_user()"
+            }
+          },
+          {
+            "result": {
+              "duration": 11933536734,
+              "status": "passed"
+            },
+            "name": "Browse to the application",
+            "keyword": "When ",
+            "line": 5,
+            "match": {
+              "location": "HeatclinicSteps.browse_to_the_app()"
+            }
+          },
+          {
+            "result": {
+              "duration": 13332909,
+              "status": "passed"
+            },
+            "name": "Broadlief home page should show",
+            "keyword": "Then ",
+            "line": 6,
+            "match": {
+              "location": "HeatclinicSteps.broadlief_home_page_should_show()"
+            }
+          }
+        ],
+        "type": "background"
+      },
+      {
+        "after": [
+          {
+            "result": {
+              "duration": 64886180,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberHooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "id": "broadleaf-commerce-login-functionality;3.-valid-user-valid-password",
+        "tags": [
+          {
+            "name": "@debug",
+            "line": 24
+          }
+        ],
+        "before": [
+          {
+            "result": {
+              "duration": 155519068,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberHooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "description": "",
+        "name": "3. Valid user valid password",
+        "keyword": "Scenario",
+        "line": 25,
+        "steps": [
+          {
+            "result": {
+              "duration": 12407323417,
+              "status": "passed"
+            },
+            "name": "User click login button",
+            "keyword": "When ",
+            "line": 26,
+            "match": {
+              "location": "HeatclinicSteps.user_click_login_button()"
+            }
+          },
+          {
+            "result": {
+              "duration": 107850718,
+              "status": "passed"
+            },
+            "name": "Enter \"iivaan@Gmail.com\" as emaill address",
+            "keyword": "And ",
+            "line": 27,
+            "match": {
+              "arguments": [
+                {
+                  "val": "iivaan@Gmail.com",
+                  "offset": 7
+                }
+              ],
+              "location": "HeatclinicSteps.enter_as_emaill_address(String)"
+            }
+          },
+          {
+            "result": {
+              "duration": 74088466,
+              "status": "passed"
+            },
+            "name": "Enter \"ameera\" as password",
+            "keyword": "And ",
+            "line": 28,
+            "match": {
+              "arguments": [
+                {
+                  "val": "ameera",
+                  "offset": 7
+                }
+              ],
+              "location": "HeatclinicSteps.enter_as_password(String)"
+            }
+          },
+          {
+            "result": {
+              "duration": 3637823382,
+              "status": "passed"
+            },
+            "name": "Click login",
+            "keyword": "And ",
+            "line": 29,
+            "match": {
+              "location": "HeatclinicSteps.click_login()"
+            }
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "name": "Invalid email or password message not display",
+            "keyword": "Then ",
+            "line": 30,
+            "match": {}
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "name": "Welcome message shows",
+            "keyword": "And ",
+            "line": 31,
+            "match": {}
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "uri": "HeatclinicLogin.feature"
+  }
+]

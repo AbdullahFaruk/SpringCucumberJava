@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="1" passed="0">
+  <reporter-output>
+    <line>
+      <![CDATA[<div "featureFile">Feature File: HeatclinicLogin.feature</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "feature">Feature: Broadleaf Commerce Login Functionality</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  As a not validated user (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">When  Browse to the application (passed : 11s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  Broadlief home page should show (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario: 3. Valid user valid password</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">When  User click login button (passed : 12s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  Enter &quot;iivaan@Gmail.com&quot; as emaill address (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  Enter &quot;ameera&quot; as password (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  Click login (passed : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  Invalid email or password message not display (undefined)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  Welcome message shows (undefined)</div>]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="32881" started-at="2015-01-24T04:58:58Z" finished-at="2015-01-24T04:59:31Z">
+    <groups>
+      <group name="CucumberTest">
+        <method signature="HeatClinicTestRunner.cucumberTest()[pri:0, instance:com.paxovision.cucumber.HeatClinicTestRunner@81e9d3]" name="cucumberTest" class="com.paxovision.cucumber.HeatClinicTestRunner"/>
+      </group> <!-- CucumberTest -->
+    </groups>
+    <test name="Default test" duration-ms="32881" started-at="2015-01-24T04:58:58Z" finished-at="2015-01-24T04:59:31Z">
+      <class name="com.paxovision.cucumber.HeatClinicTestRunner">
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:com.paxovision.cucumber.HeatClinicTestRunner@81e9d3]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="16" started-at="2015-01-23T23:58:58Z" finished-at="2015-01-23T23:58:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:com.paxovision.cucumber.HeatClinicTestRunner@81e9d3]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="3638" started-at="2015-01-23T23:58:58Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2015-01-23T23:59:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.paxovision.cucumber.HeatClinicTestRunner@81e9d3]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2015-01-23T23:59:01Z" finished-at="2015-01-23T23:59:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.paxovision.cucumber.HeatClinicTestRunner.cucumberTest() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="FAIL" signature="cucumberTest()[pri:0, instance:com.paxovision.cucumber.HeatClinicTestRunner@81e9d3]" name="cucumberTest" duration-ms="29071" started-at="2015-01-23T23:59:01Z" description="TestNGCucumberRunner to invoke Cucumber" finished-at="2015-01-23T23:59:30Z">
+          <exception class="cucumber.runtime.CucumberException">
+            <message>
+              <![CDATA[There are pending or undefined steps.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[cucumber.runtime.CucumberException: There are pending or undefined steps.
+	at cucumber.api.testng.TestNGCucumberRunner.runCukes(TestNGCucumberRunner.java:50)
+	at com.paxovision.cucumber.HeatClinicTestRunner.cucumberTest(HeatClinicTestRunner.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.MethodInvocationHelper$1.runTestMethod(MethodInvocationHelper.java:200)
+	at org.springframework.test.context.testng.AbstractTestNGSpringContextTests.run(AbstractTestNGSpringContextTests.java:172)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeHookable(MethodInvocationHelper.java:212)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:707)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- cucumber.runtime.CucumberException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<div "featureFile">Feature File: HeatclinicLogin.feature</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "feature">Feature: Broadleaf Commerce Login Functionality</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  As a not validated user (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">When  Browse to the application (passed : 11s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  Broadlief home page should show (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario: 3. Valid user valid password</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">When  User click login button (passed : 12s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  Enter &quot;iivaan@Gmail.com&quot; as emaill address (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  Enter &quot;ameera&quot; as password (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  Click login (passed : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  Invalid email or password message not display (undefined)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  Welcome message shows (undefined)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- cucumberTest -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.paxovision.cucumber.HeatClinicTestRunner@81e9d3]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="156" started-at="2015-01-23T23:59:30Z" finished-at="2015-01-23T23:59:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.paxovision.cucumber.HeatClinicTestRunner.cucumberTest() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:com.paxovision.cucumber.HeatClinicTestRunner@81e9d3]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2015-01-23T23:59:31Z" finished-at="2015-01-23T23:59:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- com.paxovision.cucumber.HeatClinicTestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
